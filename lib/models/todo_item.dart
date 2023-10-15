@@ -11,7 +11,7 @@ class TodoItem {
   final int userId;
   final int id;
   final String title;
-  final bool completed;
+  bool completed;
 
   TodoItem({
     required this.userId,
