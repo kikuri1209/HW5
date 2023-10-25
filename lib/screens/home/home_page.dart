@@ -86,10 +86,10 @@ class _HomePageState extends State<HomePage> {
                       ]),
                       Row(children: [
                         Card(
-                          color: Colors.pinkAccent[100],
+                          color: Colors.pinkAccent[200],
                           child: Text("Album ID: " + todoItem.id.toString()+" "),
                         ),Card(
-                          color: Colors.lightBlueAccent[100],
+                          color: Colors.lightBlueAccent[200],
                           child: Text("User ID: " + todoItem.userId.toString()+" "),
                         ),
 
